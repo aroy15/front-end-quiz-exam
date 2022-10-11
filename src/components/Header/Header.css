@@ -1,0 +1,6 @@
+.nav-link,.nav-link.active{
+    color: purple !important;
+}
+.nav-link.nav-active{
+    font-weight: bold;
+}
