@@ -1,0 +1,10 @@
+.option-item input{
+    width:15px;
+    height:15px;
+}
+.option-item:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.pointer{
+    cursor: pointer;
+}

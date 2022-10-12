@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg bg-light shadow">
                 <div className="container">
-                    <a className="navbar-brand" href="#">Front-end's Quiz</a>
+                    <Link className="navbar-brand" to='/'>Front-end's Quiz</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
