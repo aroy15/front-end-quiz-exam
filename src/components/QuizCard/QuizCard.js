@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './QuizCard.css'
 
 const QuizCard = ({quiz}) => {
-    const {id,name,logo,total} = quiz;
+    const {id,name,logo} = quiz;
 
     return (
         <div className="col-xl-3 col-lg-6">

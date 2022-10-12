@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizCard from '../QuizCard/QuizCard';
 import './Home.css';
 
 const Home = () => {
     const quizItems = useLoaderData().data;
-    // const [singleExam,setSingleExam] = useState()
-    // const handleToOpenExam = id =>{
-
-    // }
+    
     return (
         <>
             <section className='hero-section py-5'>
