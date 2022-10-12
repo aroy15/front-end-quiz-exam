@@ -1,0 +1,22 @@
+.hero-section{
+    background-image:url('../../image/hero-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: overlay;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+.quiz-card {
+    
+}
+.quiz-card img{
+    background-color:rgb(240 240 241);
+}
+@media (max-width:767px){
+    .hero-section{
+        min-height: 300px;
+    }
+}
