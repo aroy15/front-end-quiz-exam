@@ -19,7 +19,7 @@ const Statistics = () => {
                 <div className='w-100 d-flex justify-content-center'>
                     <ResponsiveContainer width='100%' aspect={3}>
                         <LineChart width={800} height={300} data={data} >
-                            <Line type="monotone" dataKey="uv" stroke="#8884d8" />
+                            <Line type="monotone" dataKey="uv" stroke="#8884d8" strokeWidth={4} />
                             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                             <XAxis dataKey="name" />
                             <YAxis />

@@ -4,10 +4,10 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg bg-light shadow">
+        <header>
+            <nav className="navbar navbar-expand-lg bg-light py-4 shadow">
                 <div className="container">
-                    <Link className="navbar-brand" to='/'>Front-end's Quiz</Link>
+                    <Link className="navbar-brand fw-bold text-success" to='/'>Front-end's Quiz</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -26,7 +26,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+        </header>
     );
 };
 
