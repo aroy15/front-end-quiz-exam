@@ -17,10 +17,16 @@ const Header = () => {
                                 <NavLink to='/' className={({isActive})=> isActive?'nav-active nav-link':'nav-link'}>Home</NavLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink to='/topics' className={({isActive})=> isActive?'nav-active nav-link':'nav-link'}>Topics</NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink to='/statistics' className={({isActive})=> isActive?'nav-active nav-link':'nav-link'}>Statistics</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to='/blog' className={({isActive})=> isActive?'nav-active nav-link':'nav-link'}>Blog</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink to='/about' className={({isActive})=> isActive?'nav-active nav-link':'nav-link'}>About</NavLink>
                             </li>
                         </ul>
                     </div>

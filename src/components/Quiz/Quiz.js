@@ -8,8 +8,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const Quiz = () => {
-    const {questions,name,id} = useLoaderData().data;
-    
+    const {questions,name} = useLoaderData().data;
+
     // React Toast: checking answers
     const questionResultPopup = (correctAnswer, option, questionIndex) =>{
         if(correctAnswer===option){

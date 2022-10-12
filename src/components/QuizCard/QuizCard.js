@@ -11,9 +11,8 @@ const QuizCard = ({quiz}) => {
                 <img className='img-fluid rounded' src={logo} alt={name} />
                 <div className="d-flex justify-content-between mt-3">
                     <h4 className='text-success text-center'>{name}</h4>
-                    <div>
-                        {/* <button className='btn btn-success'>Start Practice</button> */}
-                        <Link to={`quiz/${id}`} className='btn btn-success'>Start Practice</Link>
+                    <div>                        
+                        <Link to={`/quiz/${id}`} className='btn btn-success'>Start Practice</Link>
                     </div>
                 </div>
             </div>              

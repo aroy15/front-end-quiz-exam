@@ -10,7 +10,7 @@ const Statistics = () => {
     loadMainData.data.map((singleData) => {
         const {name,total} = singleData;
         const dataObj = {name,uv:total,pv:2400,amt:2400}
-        data.push(dataObj)
+        return data.push(dataObj)
     })
     return (
         <section className='py-5 mt-4'>
